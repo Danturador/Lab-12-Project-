@@ -48,7 +48,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -131,6 +131,7 @@
     <ClCompile Include="casino.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainWatch.cpp" />
+    <ClCompile Include="Note.cpp" />
     <ClCompile Include="stopwatch.cpp" />
     <ClCompile Include="time.cpp" />
     <ClCompile Include="timer.cpp" />
@@ -138,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="calculate.h" />
     <ClInclude Include="casino.h" />
+    <ClInclude Include="Note.h" />
     <ClInclude Include="watchStuff.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
